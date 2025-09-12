@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -28,5 +29,6 @@ public class Main {
         fila.offer("Paciente 2");
         fila.offer("Paciente 3");
         System.out.println(fila.poll());
+
     }
 }
